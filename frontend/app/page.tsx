@@ -6,7 +6,6 @@ export default function Home() {
       <div className="w-full max-w-3xl mx-auto">
         <header className="mb-8 text-center">
           <h1 className="text-3xl font-bold tracking-tight">SnapWild</h1>
-          <p className="text-muted-foreground">Capture, recognize, and filter animals</p>
         </header>
 
         <MainApp />

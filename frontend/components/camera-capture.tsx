@@ -105,7 +105,7 @@ export function CameraCapture({ onCapture, isProcessing }: CameraCaptureProps) {
         </div>
 
         <div className="flex justify-between">
-          <Button variant="outline" size="icon" onClick={toggleCamera} disabled={isProcessing || !isMobile}>
+          <Button variant="outline" size="icon" onClick={toggleCamera} disabled={isProcessing}>
             <FlipHorizontal size={20} />
           </Button>
           <Button
